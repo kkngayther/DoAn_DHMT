@@ -32,7 +32,7 @@ function init() {
 	scene.background = new THREE.Color(0x343a40);
 
 	// Camera
-	var camera_x = 1;
+	var camera_x = 50;
 	var camera_y = 50;
 	var camera_z = 100;
 	camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000);
